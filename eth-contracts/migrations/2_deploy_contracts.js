@@ -1,4 +1,4 @@
-var Temp = artifacts.require("./ERC721MintableComplete.sol");
+var Temp = artifacts.require("./Voter.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(Temp);
